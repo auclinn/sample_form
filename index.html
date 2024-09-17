@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "title">
+        <h1>freeCodeCamp Survey Form</h1>
+        <em><p>Thank you for taking the time to help us improve the platform.</p></em>
+    </div>
+
+    <fieldset>
+        <label for = "name">Name
+        <input class = 'details' type="text" placeholder="Enter your name">    
+        </label>
+        
+        <label for = "email">Email
+            <input class = 'details' type="email" placeholder="Enter your email"></label>
+        
+        <label for = "age">Age (optional)<input class = 'details' type="text" placeholder="Age"></label>
+        
+        <label for = "option">Which option best describes your current role?<br>
+            <select>Option
+                <option>Select current role --</option>
+                <option value="student">Student</option>
+                <option value="educ">Educator</option>
+                <option value="professional">Industry professional</option>
+                <option value="hobby">Hobbyist</option>
+            </select></label>
+    </fieldset>
+    <fieldset>
+        <div class="form-check">
+            Would you recommend freeCodeCamp to a friend?
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="" id="" value="checkedValue">
+            Definitely
+          </label>
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="" id="" value="checkedValue">
+            Maybe
+          </label>
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="" id="" value="checkedValue">
+            Not sure
+          </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <label for = "option">What is your favorite feature of freeCodeCamp?<br><select>Option
+            <option>Select an option --</option>
+            <option value="free">It's free</option>
+            <option value="options">Many course variety</option>
+            <option value="ease">Ease of use</option>
+        </select></label>
+    </fieldset>
+    
+    <fieldset class = 'improved'>
+        What would you like to see improved? (Check all that apply)
+        <label><input type="checkbox">Front-end Projects</label>
+        <label><input type="checkbox">Back-end Projects</label> 
+        <label><input type="checkbox">Data Visualization</label>
+        <label><input type="checkbox">Challenges</label>
+        <label><input type="checkbox">Open Source Community</label>
+        <label><input type="checkbox">Gitter help rooms</label>
+        <label><input type="checkbox">Videos</label>
+        <label><input type="checkbox">City Meetups</label>
+        <label><input type="checkbox">Wiki</label>
+        <label><input type="checkbox">Forum</label>
+        <label><input type="checkbox">Additional Courses</label>
+    </fieldset>
+    <fieldset>
+        
+        Any comments or suggestions?
+        <textarea class = 'suggestion'></textarea>
+
+        <button>Submit</button></fieldset>
+
+    <footer>
+        &copy; freeCodeCamp 2024
+
+    </footer>
+
+</body>
+</html>

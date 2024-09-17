@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: rgb(39, 39, 71);
+    font-family:'Poppins';
+    color: white;
+}
+fieldset {
+    background-color: rgb(39, 39, 71);
+    border-radius: 2vh;
+    margin: 10px;
+    padding: 1rem 30rem 1rem 30rem;
+    border: none;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.title{
+    /* background-color: rgb(55, 55, 129); */
+    background-image: linear-gradient(rgb(55, 55, 129), rgb(95, 95, 136));
+    padding-top: 5vh ;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+}
+
+.details, select, .suggestion{
+    border-radius: 1vh;
+    width: 100%;
+    height: 4vh;
+    margin: 0.5rem;
+}
+
+
+
+.suggestion{
+    height: 10vh;
+}
+
+label{
+    display: block;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: column;
+}
+
+.improved{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+button{
+    cursor: pointer;
+    font-family: 'poppins';
+    background-color: rgb(53, 170, 98);
+    color: white;
+    height: 5vh;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    fieldset {
+        background-color: rgb(39, 39, 71);
+        border-radius: 2vh;
+        margin: 10px;
+        padding: 1rem 8rem 1rem 8rem;
+        border: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    fieldset {
+        background-color: rgb(39, 39, 71);
+        border-radius: 2vh;
+        margin: 10px;
+        padding: 1rem 5rem 1rem 5rem;
+        border: none;
+    }
+  }
